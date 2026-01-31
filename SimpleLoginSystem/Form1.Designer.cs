@@ -151,7 +151,7 @@
             this.Controls.Add(this.txtRegPass);
             this.Controls.Add(this.txtRegUser);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Registration Form";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

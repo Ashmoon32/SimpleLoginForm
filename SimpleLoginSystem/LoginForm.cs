@@ -32,12 +32,16 @@ namespace SimpleLoginSystem
 
                     if (count > 0)
                     {
-                        MessageBox.Show("Login Success! Welcome to the Travel Agency.");
-                        // Later, we will open the Dashboard here
-                    }
-                    else
-                    {
-                        MessageBox.Show("Invalid username or password.");
+                        MessageBox.Show("Login Success!");
+
+                        // 1. Create the Dashboard object
+                        MainDashboard dashboard = new MainDashboard();
+
+                        // 2. Show the Dashboard
+                        dashboard.Show();
+
+                        // 3. Hide the Login form
+                        this.Hide();
                     }
                 }
                 catch (Exception ex)
