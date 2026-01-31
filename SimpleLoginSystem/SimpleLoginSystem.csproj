@@ -99,6 +99,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="README.md" />
     <None Include="Resources\gradient-background-5120x2880-11027.jpg" />
   </ItemGroup>
   <ItemGroup>

@@ -58,5 +58,10 @@ namespace SimpleLoginSystem
             register.Show();
             this.Hide();
         }
+
+        private void LoginForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
